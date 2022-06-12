@@ -30,11 +30,11 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+🧑🏻‍💻 **Developer:** @TamilLinksOfficial
 
-👥 **Support Group:** [Linux Repositories](https://t.me/JAsuran123)
+👥 **Serials :** [Tamil Serials Official](https://t.me/TamilSerialsOfficial)
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/JAsuran123)
+📢 **Updates Channel:** [Tamil Links Official](https://t.me/TamilLinksOfficial)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @AbirHasan2005
@@ -43,7 +43,7 @@ Developer is Super Noob. Just Learning from Official Docs. Please Donate the dev
 
 Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
 
-[Donate Now](https://t.me/JAsruan123) (PayPal)
+[Donate Now](https://t.me/TamilDonationBot) (Without Money)
 """
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
