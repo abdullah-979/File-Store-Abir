@@ -47,8 +47,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/JAsuranbotsgroup"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/JAsuranbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/ChatBoxOfficialBot"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/TamilBotsOfficial")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -88,7 +88,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/JAsuranbotsgroup)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/ChatBoxOfficialBot)",
                                      disable_web_page_preview=True)
             return
 
@@ -280,7 +280,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/JAsuran/File-Store-Abir")
+                                             url="https://github.com/")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -299,7 +299,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/JAsuran/File-Store-Abir")
+                                             url="https://github.com/File-Store-Abir")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -317,8 +317,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/JAsuranbotsgroup"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/JAsuranbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/ChatBoxOfficialBot"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/TamilBotsOfficial")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -334,7 +334,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/JAsuranbotsgroup).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/ChatBoxOfficialBot).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -359,7 +359,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/JAsuranbotsgroup).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/ChatBoxOfficialBot).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -371,8 +371,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/JAsuranbotsgroup"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/JAsuranbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/TamilLinksOfficial"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/TamilBotsOfficial")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
